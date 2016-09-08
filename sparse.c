@@ -52,7 +52,7 @@ int main()
     for(k=1; k<=s_mat[0].value; k++)
         mat[s_mat[k].row][s_mat[k].col] = s_mat[k].value;
 
-    printf("\nMatrix is:\n")
+    printf("\nMatrix is:\n");
     for(i=0; i<s_mat[0].row; i++)
     {
         for(j=0; j<s_mat[0].col; j++)
