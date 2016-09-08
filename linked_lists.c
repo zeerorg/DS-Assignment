@@ -17,7 +17,6 @@ int main()
 {
     struct node *start = NULL, *end = NULL;
     int choice, x;
-    char cont = 'Y';
     do
     {
         printf("\nMENU: \n1.Add At Beginning \n2.Add at End \n3.Display \n4.Delete \n5.Exit \nEnter Choice: ");
