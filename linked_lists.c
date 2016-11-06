@@ -118,7 +118,3 @@ void deleteNode(struct node **start, struct node **end, int x)
     free(p);
     return;
 }
-
-
-
-

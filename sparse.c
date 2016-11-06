@@ -10,7 +10,9 @@ struct sparse
 int main()
 {
     int mat[20][20], row, col, i, j, k = 0;
+    printf("ENter row and column: ");
     scanf("%d %d", &row, &col);
+    printf("ENter matrix: ");
     s_mat[0].row = row;
     s_mat[0].col = col;
     s_mat[0].value = k;
